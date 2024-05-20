@@ -35,13 +35,15 @@ const BonusMember = ({ memberId }) => {
         }
     };
 
+
+
     return (
         <div className="p-4 bg-white rounded-md">
             <div className="flex flex-col p-4 mb-4 bg-[#F7F7F7] rounded-lg w-full gap-4">
                 <div className="flex gap-4 items-center">
                     <div className="flex flex-col items-start">
-                        <h3 className="text-lg font-bold text-[#000000]">{memberId.memberData.name}</h3>
-                        <p className="text-[#818C99]">{memberId.memberData.address}</p>
+                        <h3 className="text-lg font-bold text-[#000000]">{memberId.name}</h3>
+                        <p className="text-[#818C99]">{memberId.address}</p>
                     </div>
                 </div>
                 <div className="flex gap-4 items-center">
