@@ -12,7 +12,6 @@ export default function Bonus() {
     const router = useRouter();
     const id = String(router.query.id);
     const member = String(router.query.member);
-    console.log(bonuses)
     useEffect(() => {
         const fetchBonuses = async () => {
             try {

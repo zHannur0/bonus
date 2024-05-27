@@ -31,6 +31,7 @@ export default function Bonus() {
             }
     }, [router.isReady,id]);
 
+
     return (
         <MainLayout>
             {!memberId ? (

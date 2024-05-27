@@ -54,10 +54,10 @@ const BonusMember = ({ memberId }) => {
                                <div className="flex flex-col gap-4 w-full text-sm">
                                    <div className="text-black">Накоплено</div>
                                    <div className="flex items-center w-full justify-between gap-2">
-                                       {Array.from({ length: 6 }, (_, i) => (
+                                       {Array.from({ length: 5 }, (_, i) => (
                                            <div
                                                key={i}
-                                               className={`h-1 w-[15%] rounded-full ${
+                                               className={`h-1 w-full rounded-full ${
                                                    i < memberId?.amount ? 'bg-blue-500' : 'bg-gray-300'
                                                }`}
                                            ></div>

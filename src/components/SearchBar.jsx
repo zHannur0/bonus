@@ -1,6 +1,6 @@
 const SearchBar = ({filter}) => {
     return (
-        <div className="flex items-center px-2 bg-[#ECEDF0] rounded-full">
+        <div className="flex items-center px-2 w-[90%] bg-[#ECEDF0] rounded-full">
             <img src="/img/SearchBlack.svg" alt="Search" className="w-[15px] h-[15px] ml-2"/>
             <input
                 type="text"

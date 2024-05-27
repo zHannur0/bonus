@@ -36,10 +36,10 @@ export default function Search() {
     const filter = (value) => {
         setFilterValue(value);
     }
+
     return (
-        <MainLayout>
-            <div className={"bg-white p-4"}>
-                <SearchBar filter={filter}/>
+        <MainLayout filter={filter}>
+            <div className={"bg-white"}>
                 <StoreList members={members} value={filterValue}/>
                 <hr className={"w-full border-t border-[##D9D9D9]"}/>
                 <div className={"w-full flex justify-center text-black mt-4"}>
